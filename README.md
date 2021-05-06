@@ -1,3 +1,15 @@
 # FindMyNum
 Computer tries to find the number the player picked
-trying to learn Tkinter better 
+
+Not a serious project at all, just practicing Tkinter
+
+-----------------------------------------------------USEFUL LINKS--------------------------------------------------------------
+
+•Python Tkinter Button
+  https://www.tutorialkart.com/python/tkinter/button/
+
+•Python Lambda
+  https://www.w3schools.com/python/python_lambda.asp
+
+•random (library) — Generate pseudo-random numbers
+  https://docs.python.org/3/library/random.html
