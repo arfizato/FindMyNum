@@ -5,16 +5,29 @@ import tkinter.font as font
 from random import * 
 import random as rand
 
+def outOfRange():
+    global stopPlaying
+    box = messagebox.askquestion("Error! Out Of Range!","Do You Want To Stop Playing ?",icon="warning")
+    if box=="yes":
+        stopPlaying=TRUE
+    root.destroy()
+
 def goHigher():
     global guess, Min, Max
     Min=guess+1
-    guess=rand.randint(Min,Max)
+    try :
+        guess=rand.randint(Min,Max)
+    except:
+        outOfRange()
     compTxt.set(str(guess))
 
 def goLower():
     global guess, Min, Max
     Max=guess-1
-    guess=rand.randint(Min,Max)
+    try :
+        guess=rand.randint(Min,Max)
+    except:
+        outOfRange()
     compTxt.set(str(guess))
 
 def justRight():
