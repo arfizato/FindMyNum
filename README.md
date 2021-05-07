@@ -13,3 +13,6 @@ Not a serious project at all, just practicing Tkinter
 
 •random (library) — Generate pseudo-random numbers
   https://docs.python.org/3/library/random.html
+
+  -----------------------------------------------------Attribution--------------------------------------------------------------
+  Icons made by https://www.freepik.com
