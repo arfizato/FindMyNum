@@ -44,12 +44,20 @@ def ClickedOnce(guess):
     right["state"]=NORMAL
     computer["state"]=DISABLED
 
+def OnClose():
+    global keepPlaying
+    keepPlaying=FALSE 
+    root.destroy() 
+
+
 keepPlaying= TRUE
 while keepPlaying== TRUE:    
     root= tk.Tk()
     root.title("flippity flip")
     root.iconbitmap(r'images/camera.ico')
     root.configure(bg="#FAF9FC")
+    root.protocol('WM_DELETE_WINDOW', OnClose)
+
     CompGenFont= font.Font(family="Times",size=20,weight="bold",slant="italic")
     TextFont= font.Font(family="Times",weight="bold")
 
