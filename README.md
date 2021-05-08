@@ -16,6 +16,9 @@ Not a serious project at all, just practicing Tkinter
 
 •Python - Tkinter Colors
   https://www.tutorialspoint.com/python/tk_colors.htm
+  
+•Overriding Tkinter “X” button control
+  https://stackoverflow.com/questions/3295270/overriding-tkinter-x-button-control-the-button-that-close-the-window
 
   -----------------------------------------------------Attribution--------------------------------------------------------------
   Icons made by https://www.freepik.com
