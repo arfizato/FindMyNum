@@ -14,5 +14,8 @@ Not a serious project at all, just practicing Tkinter
 •random (library) — Generate pseudo-random numbers
   https://docs.python.org/3/library/random.html
 
+•Python - Tkinter Colors
+  https://www.tutorialspoint.com/python/tk_colors.htm
+
   -----------------------------------------------------Attribution--------------------------------------------------------------
   Icons made by https://www.freepik.com
